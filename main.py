@@ -2,6 +2,13 @@ from tkinter import *
 from PIL import ImageTk, Image
 import os
 
+def rotate_image():
+    global counter
+    img_label.config(image = img_array[counter%len(img_array)])
+    counter = counter+1
+
+counter = 1
+
 root = Tk()
 root.title('Wallpeper Viewer')
 
@@ -25,7 +32,7 @@ img_label.pack(pady=(15,10))
 
 #add button
 
-next_btn = Button(root, text='Next', bg='white', fg='black', width=28, height=2)
+next_btn = Button(root, text='Next', bg='white', fg='black', width=28, height=2, command=rotate_image)
 next_btn.pack()
 
 
