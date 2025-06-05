@@ -21,7 +21,12 @@ for file in files:
 
 img_label = Label(root, image = img_array[0])
 img_label.pack(pady=(15,10))
-root.mainloop()
+
+
+#add button
+
+next_btn = Button(root, text='Next', bg='white', fg='black', width=28, height=2)
+next_btn.pack()
 
 
 
