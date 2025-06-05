@@ -1,4 +1,4 @@
-from tkinter import *         # Tkinter GUI library import kar rahe hai
+from tkinter import *        # Tkinter GUI library import kar rahe hai
 from PIL import ImageTk, Image  # PIL se images load aur resize karne ke liye modules import kiye
 import os                      # OS module se folders ke andar ke files access kar paayenge
 
