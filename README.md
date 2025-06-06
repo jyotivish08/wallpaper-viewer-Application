@@ -1,8 +1,8 @@
-🖼️ **Wallpaper Viewer - Tkinter Project**
+**🖼️ Wallpaper Viewer - Tkinter Project**
 A simple Python GUI application to view wallpapers one-by-one using a Next button.
 Built using Tkinter and PIL (Pillow).
 
-🔧 **Features**
+**🔧 Features**
 - GUI made with Tkinter
 
 - Automatically loads all images from wallpapers/ folder
@@ -12,12 +12,12 @@ Built using Tkinter and PIL (Pillow).
 - "Next" button to cycle through all images
 
 
-▶️ **Run the App**
+**▶️ Run the App**
 - Put your images in a folder named wallpapers
 
 - Run the Python file - python app.py
 
-📌 **Note**
+**📌 Note**
 Make sure Pillow is installed:
 pip install pillow
 
